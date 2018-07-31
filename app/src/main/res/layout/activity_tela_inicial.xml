@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#014b78"
+    android:clickable="true"
+    tools:context="com.spinner.facilita.uvamobile.mario.spinner.facilita.uvamobile.TelaInicial">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_above="@+id/imageButton2"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:background="#014b78"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/presencial" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/lgo"
+        android:layout_marginBottom="162dp"
+        android:layout_above="@+id/imageButton2"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignBottom="@+id/imageButton3"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="157dp"
+        android:background="#014b78"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ead" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="26dp"
+        android:background="#014b78"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/aluno"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

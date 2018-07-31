@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#014b78"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_above="@+id/imageButton5"
+        android:layout_alignStart="@+id/imageButton5"
+        android:background="#014b78"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/acontecetijuca" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="#014b78"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/acontecebarra"
+        android:layout_above="@+id/imageButton6"
+        android:layout_alignStart="@+id/imageButton6" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="#014b78"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/acontececentro"
+        android:layout_above="@+id/imageButton7"
+        android:layout_alignStart="@+id/imageButton7" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:background="#014b78"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/acontececf" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/aconteceuva"
+        android:layout_marginBottom="108dp"
+        android:layout_above="@+id/imageButton5"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
